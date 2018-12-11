@@ -21,5 +21,6 @@
 
 {% block extra_js %}
     {{ block.super }}
+    {{ form.media }}
     {% include "wagtailadmin/pages/_editor_js.html" %}
 {% endblock %}
